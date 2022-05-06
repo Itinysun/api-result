@@ -1,0 +1,26 @@
+{
+    "name": "lp/api-result",
+    "description": "stander result response for api request",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lp\\ApiResult\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Itinysun",
+            "email": "860760361@qq.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lp\\ApiResult\\BootApiResultService"
+            ]
+        }
+    }
+}
