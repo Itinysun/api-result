@@ -9,7 +9,7 @@ use function response;
 /**
  *
  */
-class ApiResult
+class InstanceApiResult
 {
     /**
      * @var string

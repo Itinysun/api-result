@@ -4,6 +4,7 @@ namespace Lp\ApiResult\Facades;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Facade;
+use Lp\ApiResult\InstanceApiResult;
 
 
 /**
@@ -19,6 +20,6 @@ class ApiResult extends Facade
      */
     protected static function getFacadeAccessor(): string
     {
-        return 'apiResult';
+        return InstanceApiResult::class;
     }
 }
