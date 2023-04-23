@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "itinysun\\ApiResult\\BootApiResultService"
+                "Itinysun\\ApiResult\\BootApiResultService"
             ]
         }
     }
