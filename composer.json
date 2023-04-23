@@ -1,10 +1,10 @@
 {
-    "name": "lp/api-result",
-    "description": "stander result response for api request",
+    "name": "itinysun/api-result",
+    "description": "stander result response for laravel api request",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Lp\\ApiResult\\": "src/"
+            "itinysun\\ApiResult\\": "src/"
         }
     },
     "authors": [
@@ -14,12 +14,12 @@
         }
     ],
     "require": {
-        "laravel/framework": "^9.0"
+        "laravel/framework": "^10.0 | ^9.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lp\\ApiResult\\BootApiResultService"
+                "itinysun\\ApiResult\\BootApiResultService"
             ]
         }
     }
