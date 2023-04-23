@@ -1,6 +1,6 @@
 <?php
 
-namespace Lp\ApiResult;
+namespace Itinysun\ApiResult;
 
 enum  ErrorCode:int
 {

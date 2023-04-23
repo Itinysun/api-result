@@ -1,11 +1,11 @@
 <?php
 
-namespace Lp\ApiResult\Facades;
+namespace Itinysun\ApiResult\Facades;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Facade;
-use Lp\ApiResult\ErrorCode;
-use Lp\ApiResult\InstanceApiResult;
+use Itinysun\ApiResult\ErrorCode;
+use Itinysun\ApiResult\InstanceApiResult;
 
 
 /**

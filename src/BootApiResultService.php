@@ -1,11 +1,11 @@
 <?php
 
-namespace Lp\ApiResult;
+namespace Itinysun\ApiResult;
 
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
-use Lp\ApiResult\Facades\ApiResult;
+use Itinysun\ApiResult\Facades\ApiResult;
 
 class BootApiResultService extends ServiceProvider
 {

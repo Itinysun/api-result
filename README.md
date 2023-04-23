@@ -3,13 +3,13 @@
 ## 安装
 
 ```php
-composer require itinysun/api-response
+composer require itinysun/api-result
 ```
 
 ### 更新
 
 ```php
-composer update itinysun/api-response
+composer update itinysun/api-result
 ```
 
 
