@@ -11,7 +11,7 @@ class BootApiResultService extends ServiceProvider
 {
     public function boot()
     {
-        Log::info('request id', ['id', ApiResult::id()]);
+
     }
     public function register()
     {
