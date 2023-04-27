@@ -2,6 +2,7 @@
     "name": "itinysun/api-result",
     "description": "stander result response for laravel api request",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Itinysun\\ApiResult\\": "src/"
@@ -22,5 +23,7 @@
                 "Itinysun\\ApiResult\\BootApiResultService"
             ]
         }
-    }
+    },
+    "homepage": "https://github.com/Itinysun/api-result",
+    "keywords": ["Laravel", "ApiResult"]
 }

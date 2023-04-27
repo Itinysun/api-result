@@ -12,7 +12,7 @@ enum  ErrorCode:int
     case noKLongerAvailable=410;
     case overLimit=413;
     case overRange=416;
-    case ServerError=500;
+    case serverError=500;
     case serverOverLoad=501;
     case serverMaintenance=502;
     case serverPending=503;
